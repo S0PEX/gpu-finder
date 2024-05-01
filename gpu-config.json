@@ -9,7 +9,7 @@
       "autoDelete": "True"
     },
     "machine_type": "n1-standard-1",
-    "zone": [europe-west3-b],
+    "zone": [],
     "network_interfaces": {
       "network": "global/networks/default"
     },
