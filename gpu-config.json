@@ -8,7 +8,7 @@
       "boot": "True",
       "autoDelete": "True"
     },
-    "machine_type": "n1-standard-1",
+    "machine_type": "n1-standard-2",
     "zone": [],
     "network_interfaces": {
       "network": "global/networks/default"
