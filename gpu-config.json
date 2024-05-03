@@ -22,7 +22,7 @@
       "scopes": "https://www.googleapis.com/auth/cloud-platform"
     },
     "disk_type": "pd-balanced",
-    "disk_size": "50",
+    "disk_size": "200",
     "firewall_rules": [
       "http-server",
       "https-server"
