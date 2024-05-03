@@ -18,7 +18,7 @@
     "image_project": "deeplearning-platform-release",
     "image_family": "pytorch-latest-gpu",
     "identity_and_api_access": {
-      "service_account_email": "burhan.arat@dentaltwin.de",
+      "service_account_email": "472541015894-compute@developer.gserviceaccount.com",
       "scopes": "https://www.googleapis.com/auth/cloud-platform"
     },
     "disk_type": "pd-balanced",
