@@ -3,7 +3,7 @@
   "bucket_name": "dtadmint01",
   "number_of_instances": 1,
   "instance_config": {
-    "name": "segmentation-test",
+    "name": "segmentation",
     "root_persistent_disk": {
       "boot": "True",
       "autoDelete": "True"
