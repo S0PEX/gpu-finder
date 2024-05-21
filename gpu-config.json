@@ -3,12 +3,12 @@
   "bucket_name": "dtadmint01",
   "number_of_instances": 1,
   "instance_config": {
-    "name": "docker-test",
+    "name": "preprocess-template",
     "root_persistent_disk": {
       "boot": "True",
       "autoDelete": "True"
     },
-    "machine_type": "n1-highmem-2",
+    "machine_type": "n1-highmem-8",
     "zone": [],
     "network_interfaces": {
       "network": "global/networks/default"
@@ -16,7 +16,7 @@
     "gpu_type": "nvidia-tesla-t4",
     "number_of_gpus": 1,
     "image_project": "deeplearning-platform-release",
-    "image_family": "pytorch-latest-gpu",
+    "image_family": "pytorch-2.2-gpu-v20240514",
     "identity_and_api_access": {
       "service_account_email": "472541015894-compute@developer.gserviceaccount.com",
       "scopes": "https://www.googleapis.com/auth/cloud-platform"
