@@ -16,7 +16,7 @@
     "gpu_type": "nvidia-tesla-t4",
     "number_of_gpus": 1,
     "image_project": "deeplearning-platform-release",
-    "image_family": "pytorch-2.2-gpu-v20240514",
+    "image_family": "pytorch-2-1-cu121-v20240514-ubuntu-2204-py310",
     "identity_and_api_access": {
       "service_account_email": "472541015894-compute@developer.gserviceaccount.com",
       "scopes": "https://www.googleapis.com/auth/cloud-platform"
