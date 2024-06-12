@@ -3,12 +3,12 @@
   "bucket_name": "dtadmint01",
   "number_of_instances": 1,
   "instance_config": {
-    "name": "preprocess",
+    "name": "n1-highmem-2-",
     "root_persistent_disk": {
       "boot": "True",
       "autoDelete": "True"
     },
-    "machine_type": "n1-highmem-8",
+    "machine_type": "n1-highmem-2-t4-pytorch-2-1-cu121",
     "zone": [],
     "network_interfaces": {
       "network": "global/networks/default"
