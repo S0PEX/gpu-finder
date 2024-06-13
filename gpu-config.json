@@ -3,7 +3,7 @@
   "bucket_name": "dtadmint01",
   "number_of_instances": 1,
   "instance_config": {
-    "name": "preprocess-n1-highmem-4-t4-pytorch-2-1-cu121",
+    "name": "pre-2c-26m-t4",
     "root_persistent_disk": {
       "boot": "True",
       "autoDelete": "True"
