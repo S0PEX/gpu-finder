@@ -1,9 +1,9 @@
 {
-  "project_id": "dt0001",
+  "project_id": "uzk-cv-2024",
   "bucket_name": "dtadmint01",
   "number_of_instances": 1,
   "instance_config": {
-    "name": "inference-2c-13m-t4",
+    "name": "icl-2c-13m-t4",
     "root_persistent_disk": {
       "boot": "True",
       "autoDelete": "True"
@@ -15,14 +15,14 @@
     },
     "gpu_type": "nvidia-tesla-t4",
     "number_of_gpus": 1,
-    "image_project": "deeplearning-platform-release",
-    "image_family": "pytorch-1-12-cu113",
+    "image_project": "ubuntu-os-cloud",
+    "image_family": "ubuntu-2204-lts",
     "identity_and_api_access": {
-      "service_account_email": "472541015894-compute@developer.gserviceaccount.com",
+      "service_account_email": "97208717353-compute@developer.gserviceaccount.com",
       "scopes": "https://www.googleapis.com/auth/cloud-platform"
     },
     "disk_type": "pd-balanced",
-    "disk_size": "50",
+    "disk_size": "256",
     "firewall_rules": [
       "http-server",
       "https-server"

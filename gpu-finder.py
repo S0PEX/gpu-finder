@@ -20,10 +20,12 @@ an image.
     https://cloud.google.com/compute/docs/tutorials/python-guide
 For more information, see the README.md under /compute.
 """
-
+import os
 import time
 import json
 import googleapiclient.discovery
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="D:\\UzK\\gpu-finder\\api.json"
 
 def check_gpu_config(config):
     compute_config = config
